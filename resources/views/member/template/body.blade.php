@@ -63,6 +63,11 @@
 
         <!-- You might link your CSS files here -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <!-- Swiper CSS -->
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link rel="stylesheet" href="{{ asset('css/index.css') }}">
         <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
@@ -83,6 +88,7 @@
         <script src="{{ asset('js/app.js') }}"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script>
             let hideTimer;
 
@@ -97,6 +103,27 @@
                     }, 2000); // 离开后 3 秒才隐藏
                 }
             );
+
+            // 第一个 Swiper
+            const swiper1 = new Swiper(".swiper1", {
+                loop: true,
+                pagination: {
+                el: ".swiper-pagination1",
+                clickable: true,
+                },
+            });
+
+            // 第二个 Swiper
+            const swiper2 = new Swiper(".swiper2", {
+                loop: true,
+                navigation: {
+                nextEl: ".swiper-button-next2",
+                prevEl: ".swiper-button-prev2",
+                },
+                autoplay: {
+                delay: 2000,
+                },
+            });
         </script>
     </body>
 </html>

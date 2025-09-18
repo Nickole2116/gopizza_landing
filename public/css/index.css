@@ -120,8 +120,8 @@ body {
     background: linear-gradient(
         270deg,
         var(--primary-color),
-        var(--secondary-color),
-        #000,
+        var(--quinary-color),
+        #86a8e7,
         var(--primary-color)
     );
     background-size: 400% 400%;

@@ -1,5 +1,25 @@
 <div class="section banner">
-  dd
+  <!-- Swiper 1 -->
+  <div class="swiper swiper1">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Swiper 1 - Slide 1</div>
+      <div class="swiper-slide">Swiper 1 - Slide 2</div>
+      <div class="swiper-slide">Swiper 1 - Slide 3</div>
+    </div>
+    <div class="swiper-pagination swiper-pagination1"></div>
+  </div>
+
+  <!-- Swiper 2 -->
+  <div class="swiper swiper2">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Swiper 2 - Slide A</div>
+      <div class="swiper-slide">Swiper 2 - Slide B</div>
+      <div class="swiper-slide">Swiper 2 - Slide C</div>
+    </div>
+    <div class="swiper-button-next swiper-button-next2"></div>
+    <div class="swiper-button-prev swiper-button-prev2"></div>
+  </div>
+
 
     
 
