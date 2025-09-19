@@ -4,12 +4,13 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MemberController;
 use App\Http\Controllers\AdminController;
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
 
 // Member routes
 Route::controller(MemberController::class)->group(function () {
+    Route::get('/', 'home')->name('member.main');
     Route::get('/home', 'home')->name('member.home');
     Route::get('/story', 'story')->name('member.story');
     Route::get('/contact', 'contact')->name('member.contact');

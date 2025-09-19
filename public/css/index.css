@@ -60,6 +60,7 @@
     --bg: #eaddd236;
     --text: #000;
     --subtext: #4e4e4e;
+    --max-width: 1440px;
 
 }
 
@@ -93,6 +94,8 @@ body {
     width: 100%;
     padding: 0 3vw;
     height: 130px;
+    max-width: var(--max-width);
+    margin: 0 auto;
 }
 
 .topnav .logo {
@@ -210,4 +213,57 @@ body {
     100% {
         background-position: 0% 50%;
     }
+}
+
+/* Footer */
+.footer {
+    background: var(--secondary-color);
+    width: 100%;
+    min-height: 200px;
+    
+}
+.footer .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3vw;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+.footer .content .logo {
+    width: 350px;
+}
+.footer .content .logo .logo-img {
+    width: 150px;
+    height: auto;
+}
+.footer .content .menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: .25rem;
+}
+.footer .content .menu .menu-title {
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+.footer .content .menu .menu-item {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.footer .content .info {
+    flex: 1;
+}
+.footer .tail {
+    text-align: center;
+    font-size: .75rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    background: var(--primary-color);
+    width: 100%;
+    padding: .5rem 3vw;
+    color: #fff;
 }
