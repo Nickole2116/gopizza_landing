@@ -71,6 +71,7 @@
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link rel="stylesheet" href="{{ asset('css/index.css') }}">
         <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/mdi.css') }}">
         
     </head>
     <body>
