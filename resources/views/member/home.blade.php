@@ -4,23 +4,24 @@
     <div class="swiper-wrapper">
 
       <div class="swiper-slide t1">
+        <div class="info">
+          <div class="i1">Pizza Make</div>
+          <div class="i2">Smarter, Faster,</div>
+          <div class="i4">Better.</div>
+        </div>
         <img src="{{ asset('img/HomePage/listphoto.avif') }}" alt="banner">
       </div>
 
-      <div class="swiper-slide">
-        <img src="{{ asset('img/HomePage/listphoto.avif') }}" alt="banner">
+      <div class="swiper-slide t2">
+        dd
       </div>
-      <div class="swiper-slide">
-        <img src="{{ asset('img/HomePage/listphoto.avif') }}" alt="banner">
-      </div>
+      
     </div>
+    
+  </div>
+  <div class="page">
     <div class="swiper-pagination swiper-pagination1"></div>
   </div>
-
-  <div class="coming_soon">
-    <span>Coming Soon</span>
-  </div>
-
   
 </div>
 <!-- <div class="section order">

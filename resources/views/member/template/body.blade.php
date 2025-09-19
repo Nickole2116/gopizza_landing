@@ -81,7 +81,7 @@
     <body>
            
         @include('member.template.topnav')
-        <div class="main no-p">
+        <div class="main">
             @include('member.template.sitenav')
             @include($content)
         </div>

@@ -50,9 +50,11 @@
     --primary-color: #fa4616;
     --secondary-color: #fdf3cb;
     --tertiary-color: #d9d9d6;
-    --quaternary-color: #eaddd2;
+    --quaternary-color: #dcbfa6;
     --quinary-color: #ffb81c;
-    --senary-color: #000;
+    --senary-color: #802f2d;
+    --septenary-color: #171c8f;
+    --octonary-color: #000;
     
     --font-family: 'RuckSack', sans-serif;
     --line-height: 1.25;
@@ -87,7 +89,7 @@ body {
 
 /* Topnav */
 .topnav {
-    background: #fdf3cbdb;
+    background: #fff;
     width: 100%;
     height: 110px;
     position: fixed;
@@ -377,7 +379,7 @@ body {
 
 
 /* Body */
-.main.no-p {
+.main {
     padding-top: 110px;
 }
 .main.no-p {
