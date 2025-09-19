@@ -72,12 +72,16 @@
         <link rel="stylesheet" href="{{ asset('css/index.css') }}">
         <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
         <link rel="stylesheet" href="{{ asset('css/mdi.css') }}">
+
+        @if ($content == 'member.home')
+            <link rel="stylesheet" href="{{ asset('css/home.css') }}">
+        @endif
         
     </head>
     <body>
            
         @include('member.template.topnav')
-        <div class="main">
+        <div class="main no-p">
             @include('member.template.sitenav')
             @include($content)
         </div>
@@ -125,6 +129,7 @@
                 delay: 2000,
                 },
             });
+            
         </script>
     </body>
 </html>

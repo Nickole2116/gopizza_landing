@@ -2,33 +2,36 @@
   <!-- Swiper 1 -->
   <div class="swiper swiper1">
     <div class="swiper-wrapper">
-      <div class="swiper-slide">Swiper 1 - Slide 1</div>
-      <div class="swiper-slide">Swiper 1 - Slide 2</div>
-      <div class="swiper-slide">Swiper 1 - Slide 3</div>
+
+      <div class="swiper-slide t1">
+        <img src="{{ asset('img/HomePage/listphoto.avif') }}" alt="banner">
+      </div>
+
+      <div class="swiper-slide">
+        <img src="{{ asset('img/HomePage/listphoto.avif') }}" alt="banner">
+      </div>
+      <div class="swiper-slide">
+        <img src="{{ asset('img/HomePage/listphoto.avif') }}" alt="banner">
+      </div>
     </div>
     <div class="swiper-pagination swiper-pagination1"></div>
   </div>
 
+  <div class="coming_soon">
+    <span>Coming Soon</span>
+  </div>
+
   
 </div>
-<div class="section order">
-  <!-- Swiper 2 -->
-  <div class="swiper swiper2">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">Swiper 2 - Slide A</div>
-      <div class="swiper-slide">Swiper 2 - Slide B</div>
-      <div class="swiper-slide">Swiper 2 - Slide C</div>
-    </div>
-    <div class="swiper-button-next swiper-button-next2"></div>
-    <div class="swiper-button-prev swiper-button-prev2"></div>
-  </div>
+<!-- <div class="section order">
+  
 </div>
 <div class="section benefit">Section 3</div>
-<div class="section introduce">Section 4</div>
+<div class="section introduce">Section 4</div> -->
 
 
 <!-- Modal -->
-<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+<!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
 <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
     
