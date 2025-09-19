@@ -9,6 +9,9 @@
     <div class="swiper-pagination swiper-pagination1"></div>
   </div>
 
+  
+</div>
+<div class="section order">
   <!-- Swiper 2 -->
   <div class="swiper swiper2">
     <div class="swiper-wrapper">
@@ -19,12 +22,7 @@
     <div class="swiper-button-next swiper-button-next2"></div>
     <div class="swiper-button-prev swiper-button-prev2"></div>
   </div>
-
-
-    
-
 </div>
-<div class="section order">Section 2</div>
 <div class="section benefit">Section 3</div>
 <div class="section introduce">Section 4</div>
 

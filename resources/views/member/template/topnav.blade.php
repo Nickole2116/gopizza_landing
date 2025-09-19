@@ -19,7 +19,7 @@
                 </div>
             </div>
             <a href="{{ route('member.contact') }}" class="menu-item">Contact Us</a>
-            <a href="{{ route('member.event') }}" class="menu-item animated">Events</a>
+            <a href="{{ route('member.event') }}" class="menu-item animated">Rewards</a>
             
         </div>
 

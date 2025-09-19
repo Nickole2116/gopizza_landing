@@ -77,7 +77,7 @@
     <body>
            
         @include('member.template.topnav')
-        <div>
+        <div class="main">
             @include('member.template.sitenav')
             @include($content)
         </div>
